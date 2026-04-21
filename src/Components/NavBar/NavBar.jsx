@@ -2,7 +2,7 @@ import React from 'react';
 
 const NavBar = () => {
     return (
-        <div className='container mx-auto'>
+        <div className='container mx-auto px-15'>
             <div className="navbar bg-base-100 shadow-sm">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -12,22 +12,22 @@ const NavBar = () => {
                         <ul
                             tabIndex="-1"
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <li><a>Products</a></li>
-                            <li><a>Features</a></li>
-                            <li><a>Pricing</a></li>
-                            <li><a>Testimonials</a></li>
-                            <li><a>FAQ</a></li>
+                            <li className='font-bold'><a>Products</a></li>
+                            <li className='font-bold'><a>Features</a></li>
+                            <li className='font-bold'><a>FAQ</a></li>
+                            <li className='font-bold'><a>Pricing</a></li>
+                            <li className='font-bold'><a>Testimonials</a></li>
                         </ul>
                     </div>
                     <a className="btn btn-ghost text-xl"><img src={"https://i.ibb.co.com/ZzyWs6bb/Digi-Tools.png"} /></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li><a>Products</a></li>
-                        <li><a>Features</a></li>
-                        <li><a>Pricing</a></li>
-                        <li><a>Testimonials</a></li>
-                        <li><a>FAQ</a></li>
+                        <li className='font-bold'><a>Products</a></li>
+                        <li className='font-bold'><a>Features</a></li>
+                        <li className='font-bold'><a>Pricing</a></li>
+                        <li className='font-bold'><a>Testimonials</a></li>
+                        <li className='font-bold'><a>FAQ</a></li>
                     </ul>
                 </div>
                 <div className="navbar-end space-x-6 flex items-center">
