@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder",
+    "description": "Create professional resumes with AI-powered suggestions.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ],
+    "icon": "https://img.icons8.com/color/96/resume.png"
+  },
+  {
+    "id": 2,
+    "name": "Social Media Kit",
+    "description": "Ready-to-use templates for all social platforms.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "500+ templates",
+      "Instagram & Facebook ready",
+      "Editable in Canva"
+    ],
+    "icon": "https://img.icons8.com/color/96/instagram-new.png"
+  },
+  {
+    "id": 3,
+    "name": "AI Content Writer",
+    "description": "Generate blogs, captions, and ads instantly.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "SEO optimized content",
+      "Multiple tones",
+      "Fast generation"
+    ],
+    "icon": "https://img.icons8.com/color/96/content.png"
+  },
+  {
+    "id": 4,
+    "name": "Logo Maker Pro",
+    "description": "Design stunning logos in minutes.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "1000+ icons",
+      "Custom colors",
+      "High resolution export"
+    ],
+    "icon": "https://img.icons8.com/color/96/design.png"
+  },
+  {
+    "id": 5,
+    "name": "Website UI Kit",
+    "description": "Pre-built UI components for modern websites.",
+    "price": 24.99,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Figma files included",
+      "Responsive design",
+      "Easy customization"
+    ],
+    "icon": "https://img.icons8.com/color/96/web-design.png"
+  },
+  {
+    "id": 6,
+    "name": "Email Marketing Tool",
+    "description": "Automate and track your email campaigns.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Campaign automation",
+      "Analytics dashboard",
+      "Custom templates"
+    ],
+    "icon": "https://img.icons8.com/color/96/email.png"
+  },
+  {
+    "id": 7,
+    "name": "Video Editing Pack",
+    "description": "Professional video presets and transitions.",
+    "price": 39.99,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Premiere Pro presets",
+      "After Effects support",
+      "4K ready"
+    ],
+    "icon": "https://img.icons8.com/color/96/video-editing.png"
+  },
+  {
+    "id": 8,
+    "name": "AI Chatbot Builder",
+    "description": "Create smart chatbots for your website.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "No-code builder",
+      "Custom workflows",
+      "Multi-language support"
+    ],
+    "icon": "https://img.icons8.com/color/96/chatbot.png"
+  }
+]
