@@ -1,122 +1,122 @@
 [
   {
     "id": 1,
-    "name": "AI Resume Builder",
-    "description": "Create professional resumes with AI-powered suggestions.",
-    "price": 9.99,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker"
+    ],
+    "icon": "https://i.ibb.co.com/0yWpcYbx/Group-7.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "2000+ templates",
+      "Monthly updates",
+      "Commercial license"
+    ],
+    "icon": "https://i.ibb.co.com/WWP6Ln46/Group-7-1.png"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "10M+ assets",
+      "Commercial use",
+      "No attribution"
+    ],
+    "icon": "https://i.ibb.co.com/SwgQsn2L/Group-7-2.png"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+    "price": 79,
     "period": "monthly",
     "tag": "Popular",
     "tagType": "popular",
+    "features": [
+      "50+ automations",
+      "API access",
+      "Custom workflows"
+    ],
+    "icon": "https://i.ibb.co.com/jZ1svLZf/Group-7-3.png"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters that land interviews.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
     "features": [
       "100+ templates",
       "ATS optimization",
       "Export to PDF"
     ],
-    "icon": "https://img.icons8.com/color/96/resume.png"
-  },
-  {
-    "id": 2,
-    "name": "Social Media Kit",
-    "description": "Ready-to-use templates for all social platforms.",
-    "price": 19.99,
-    "period": "one-time",
-    "tag": "Best Seller",
-    "tagType": "best-seller",
-    "features": [
-      "500+ templates",
-      "Instagram & Facebook ready",
-      "Editable in Canva"
-    ],
-    "icon": "https://img.icons8.com/color/96/instagram-new.png"
-  },
-  {
-    "id": 3,
-    "name": "AI Content Writer",
-    "description": "Generate blogs, captions, and ads instantly.",
-    "price": 14.99,
-    "period": "monthly",
-    "tag": "New",
-    "tagType": "new",
-    "features": [
-      "SEO optimized content",
-      "Multiple tones",
-      "Fast generation"
-    ],
-    "icon": "https://img.icons8.com/color/96/content.png"
-  },
-  {
-    "id": 4,
-    "name": "Logo Maker Pro",
-    "description": "Design stunning logos in minutes.",
-    "price": 29.99,
-    "period": "one-time",
-    "tag": "Popular",
-    "tagType": "popular",
-    "features": [
-      "1000+ icons",
-      "Custom colors",
-      "High resolution export"
-    ],
-    "icon": "https://img.icons8.com/color/96/design.png"
-  },
-  {
-    "id": 5,
-    "name": "Website UI Kit",
-    "description": "Pre-built UI components for modern websites.",
-    "price": 24.99,
-    "period": "one-time",
-    "tag": "Best Seller",
-    "tagType": "best-seller",
-    "features": [
-      "Figma files included",
-      "Responsive design",
-      "Easy customization"
-    ],
-    "icon": "https://img.icons8.com/color/96/web-design.png"
+    "icon": "https://i.ibb.co.com/CFjnfnL/Group-7-4.png"
   },
   {
     "id": 6,
-    "name": "Email Marketing Tool",
-    "description": "Automate and track your email campaigns.",
-    "price": 12.99,
-    "period": "monthly",
-    "tag": "Popular",
-    "tagType": "popular",
-    "features": [
-      "Campaign automation",
-      "Analytics dashboard",
-      "Custom templates"
-    ],
-    "icon": "https://img.icons8.com/color/96/email.png"
-  },
-  {
-    "id": 7,
-    "name": "Video Editing Pack",
-    "description": "Professional video presets and transitions.",
-    "price": 39.99,
-    "period": "one-time",
-    "tag": "New",
-    "tagType": "new",
-    "features": [
-      "Premiere Pro presets",
-      "After Effects support",
-      "4K ready"
-    ],
-    "icon": "https://img.icons8.com/color/96/video-editing.png"
-  },
-  {
-    "id": 8,
-    "name": "AI Chatbot Builder",
-    "description": "Create smart chatbots for your website.",
-    "price": 19.99,
+    "name": "Social Media Content Kit",
+    "description": "Complete toolkit for creating engaging social media content across all platforms.",
+    "price": 39,
     "period": "monthly",
     "tag": "Best Seller",
     "tagType": "best-seller",
     "features": [
-      "No-code builder",
-      "Custom workflows",
+      "5000+ assets",
+      "Scheduler included",
+      "Analytics dashboard"
+    ],
+    "icon": "https://i.ibb.co.com/jZJ94rhZ/Group-7-5.png"
+  },
+  {
+    "id": 7,
+    "name": "AI Chat Assistant",
+    "description": "Build smart AI chatbots to automate customer support and engagement.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "24/7 auto replies",
+      "Custom chatbot flows",
       "Multi-language support"
     ],
-    "icon": "https://img.icons8.com/color/96/chatbot.png"
+    "icon": "https://i.ibb.co.com/0yWpcYbx/Group-7.png"
+  },
+  {
+    "id": 8,
+    "name": "Creative Graphics Pack",
+    "description": "A complete bundle of modern graphics, icons, and illustrations.",
+    "price": 35,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "3000+ design assets",
+      "SVG & PNG formats",
+      "Commercial license included"
+    ],
+    "icon": "https://i.ibb.co.com/WWP6Ln46/Group-7-1.png"
   }
 ]

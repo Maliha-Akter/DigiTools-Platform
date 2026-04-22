@@ -5,15 +5,15 @@ const Banner = () => {
     return (
         <div>
             <div className="container mx-auto bg-base-200 min-h-max px-15 mt-30 mb-30">
-                <div className="flex flex-col lg:flex-row-reverse items-center w-full ">
+                <div className="flex flex-col lg:flex-row-reverse gap-20 items-center w-full ">
                     <div className="flex-1 flex ">
                         <img
                             src={"https://i.ibb.co.com/ZzTNzJfP/banner.png"}
                             className=" rounded-lg shadow-2xl ml-auto"
                         />
                     </div>
-                    <div className='space-y-2 flex-1 w-100 '>
-                        <div className='flex gap-2 items-center bg-[#e4e2ff] w-1/2 p-2 rounded-full'>
+                    <div className='space-y-2 flex-1 lg:w-100 '>
+                        <div className='flex gap-2 items-center bg-[#e4e2ff] lg:w-[60%] pl-6 py-2  rounded-full'>
                             <img className='border border-[#E1E7FF] p-1.5 w-6 rounded-full bg-linear-to-l from-[#b0aadc] to-[#bc96d9]' src={"https://i.ibb.co.com/ynmDKPqT/Rectangle-4.png"} alt="" />
                             <h1 className='text-xl  bg-linear-to-l from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>New: AI-Powered Tools Available</h1>
                         </div>
