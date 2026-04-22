@@ -2,7 +2,7 @@ import React from 'react';
 import DigitalCard from './DigitalCard';
 import DigitalCart from './DigitalCart';
 
-const DigitalHeader = ({ digitalData, selectCart, setSelectCart, handleSelectCart,cartArray ,setCartArray,handleCartArray}) => {
+const DigitalHeader = ({ digitalData, selectCart, setSelectCart, handleSelectCart,cartArray ,setCartArray,handleCartArray,deleteCart}) => {
     return (
         <div>
             <div className='mt-30'>
@@ -23,7 +23,7 @@ const DigitalHeader = ({ digitalData, selectCart, setSelectCart, handleSelectCar
                             }`} onClick={() => {
                                 setSelectCart("cart");
                                 handleSelectCart("cart")
-                            }}>Cart (2)</button>
+                            }}>Cart ({cartArray.length})</button>
 
                     </div>
                 </div>
@@ -39,7 +39,7 @@ const DigitalHeader = ({ digitalData, selectCart, setSelectCart, handleSelectCar
                             }
                         </div>
                         :
-                        <DigitalCart cartArray={cartArray} setCartArray={setCartArray} handleCartArray={handleCartArray}></DigitalCart>
+                        <DigitalCart cartArray={cartArray} setCartArray={setCartArray} handleCartArray={handleCartArray} deleteCart={deleteCart}></DigitalCart>
                 }
             </div>
         </div>

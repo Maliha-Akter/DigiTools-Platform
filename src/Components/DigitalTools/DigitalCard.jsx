@@ -11,12 +11,22 @@ const DigitalCard = ({ data, selectCart, setSelectCart, cartArray, setCartArray,
                             src={icon}
                             alt="Shoes" />
                     </figure>
-                    <h2>{tag}</h2>
+                    <h2 className={`font-semibold text-sm rounded-full px-3 py-2 text-center h-1/2 ${
+                        tagType==="new" 
+                        ? "bg-green-200 text-green-600"
+                        : tagType==="popular" 
+                        ? "bg-purple-300 text-purple-800"
+                        : tagType === "best-seller" 
+                        ? "bg-yellow-200 text-yellow-500"
+                        : ""
+                    }`}>
+                        {tag}
+                    </h2>
                 </div>
                 <div className="card-body">
                     <h2 className="card-title text-3xl font-bold">{name}</h2>
                     <p>{description}</p>
-                    <h3>${price}/mo</h3>
+                    <h3><span className='font-bold text-2xl'>${price}</span>/<span>{period}</span> </h3>
                     <ul>
                         {
                             features.map(feature => (<li>
