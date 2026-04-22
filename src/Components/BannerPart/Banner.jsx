@@ -4,7 +4,7 @@ import { GrPlay } from "react-icons/gr";
 const Banner = () => {
     return (
         <div>
-            <div className="container mx-auto bg-base-200 min-h-screen px-15 mt-15">
+            <div className="container mx-auto bg-base-200 min-h-max px-15 mt-30 mb-30">
                 <div className="flex flex-col lg:flex-row-reverse items-center w-full ">
                     <div className="flex-1 flex ">
                         <img

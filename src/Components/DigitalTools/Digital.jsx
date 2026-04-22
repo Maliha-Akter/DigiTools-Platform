@@ -2,7 +2,7 @@ import React from 'react';
 
 const Digital = () => {
     return (
-        <div className=''>
+        <div className='mt-40'>
             <div className='border-2 text-center space-y-5'>
                 <h2 className='text-5xl font-bold'>Premium Digital Tools</h2>
                 <p className=''>Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
