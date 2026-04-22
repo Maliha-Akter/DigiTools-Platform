@@ -1,6 +1,6 @@
 import React from 'react';
 
-const DigitalCard = ({ data }) => {
+const DigitalCard = ({ data, selectCart, setSelectCart, cartArray, setCartArray, handleCartArray }) => {
     const { name, description, price, period, tag, tagType, features, icon } = data;
     return (
         <div>
@@ -26,7 +26,8 @@ const DigitalCard = ({ data }) => {
                         }
                     </ul>
                     <div className="justify-start ">
-                        <button className="btn bg-linear-to-l from-[#4F39F6] to-[#9514FA] text-white rounded-full py-6 px-5 w-full">Buy Now</button>
+                        <button onClick={() =>
+                            handleCartArray(data)} className="btn bg-linear-to-l from-[#4F39F6] to-[#9514FA] text-white rounded-full py-6 px-5 w-full">Buy Now</button>
                     </div>
                 </div>
             </div>
