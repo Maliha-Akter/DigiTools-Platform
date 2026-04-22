@@ -5,6 +5,8 @@ import Banner from './Components/BannerPart/Banner'
 import Batch from './Components/BannerPart/Batch'
 import Digital from './Components/DigitalTools/Digital'
 import NavBar from './Components/NavBar/NavBar'
+import GetStart from './Components/BannerPart/GetStart'
+import PricingOffer from './Components/BannerPart/PricingOffer'
 
 const dataPromise = fetch('../public/data.json').then(res => res.json());
 
@@ -37,6 +39,8 @@ function App() {
       </div>}>
         <Digital dataPromise={dataPromise} selectCart={selectCart} setSelectCart={setSelectCart} handleSelectCart={handleSelectCart} cartArray={cartArray} setCartArray={setCartArray} handleCartArray={handleCartArray} deleteCart={deleteCart}></Digital>
       </Suspense>
+      <GetStart></GetStart>
+      <PricingOffer></PricingOffer>
 
     </>
   )
