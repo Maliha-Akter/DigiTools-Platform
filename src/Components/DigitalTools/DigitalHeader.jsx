@@ -35,7 +35,7 @@ const DigitalHeader = ({ digitalData, selectCart, setSelectCart, selectedId, set
                         <div className='grid lg:grid-cols-3 md:grid-cols-2  container mx-auto space-y-8 mt-10'>
                             {
                                 digitalData.map(data => {
-                                    return <DigitalCard data={data} selectCart={selectCart} setSelectCart={setSelectCart} cartArray={cartArray} setCartArray={setCartArray} handleCartArray={handleCartArray} selectedId={selectedId} setSelectedId={setSelectedId}></DigitalCard>
+                                    return <DigitalCard key={data.id} data={data} selectCart={selectCart} setSelectCart={setSelectCart} cartArray={cartArray} setCartArray={setCartArray} handleCartArray={handleCartArray} selectedId={selectedId} setSelectedId={setSelectedId}></DigitalCard>
                                 })
                             }
                         </div>
