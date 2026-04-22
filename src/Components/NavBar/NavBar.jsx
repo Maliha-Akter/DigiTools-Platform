@@ -17,6 +17,8 @@ const NavBar = ({ cartArray, setCartArray }) => {
                             <li className='font-bold'><a>FAQ</a></li>
                             <li className='font-bold'><a>Pricing</a></li>
                             <li className='font-bold'><a>Testimonials</a></li>
+                            <li className='font-bold md:hidden'><a>Login</a></li>
+                            
                         </ul>
                     </div>
                     <a className="btn btn-ghost text-xl"><img src={"https://i.ibb.co.com/ZzyWs6bb/Digi-Tools.png"} /></a>
