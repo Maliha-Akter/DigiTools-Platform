@@ -7,6 +7,8 @@ import Digital from './Components/DigitalTools/Digital'
 import NavBar from './Components/NavBar/NavBar'
 import GetStart from './Components/BannerPart/GetStart'
 import PricingOffer from './Components/BannerPart/PricingOffer'
+import TransformWork from './Components/BannerPart/TransformWork'
+import Footer from './Components/BannerPart/Footer'
 
 const dataPromise = fetch('../public/data.json').then(res => res.json());
 
@@ -41,6 +43,8 @@ function App() {
       </Suspense>
       <GetStart></GetStart>
       <PricingOffer></PricingOffer>
+      <TransformWork></TransformWork>
+      <Footer></Footer>
 
     </>
   )
