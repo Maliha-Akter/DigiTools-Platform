@@ -14,6 +14,6 @@ DigiTools Platform is a modern web application that allows users to explore prem
 ---
 
 ## ✨ Key Features
-- 🛒 Add to Cart & Remove from Cart functionality  
+- 🛒 Product can be added to Cart & Removed from Cart functionality  
 - 🔄 Dynamic button state (Buy Now → Added to Cart)  
 - 📱 Fully responsive design for all devices  
