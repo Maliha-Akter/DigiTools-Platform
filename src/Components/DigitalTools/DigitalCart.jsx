@@ -1,6 +1,7 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
-const DigitalCart = ({ cartArray, setCartArray, deleteCart }) => {
+const DigitalCart = ({ cartArray, setCartArray, deleteCart, selectedId, setSelectedId, selectCart }) => {
     let count = 0;
     cartArray.forEach(cart => {
         count = count + cart.price;
@@ -12,14 +13,20 @@ const DigitalCart = ({ cartArray, setCartArray, deleteCart }) => {
     return (
         <div className='mx-auto container shadow-2xl p-18'>
             <h1 className='text-4xl font-bold mb-15'>Your Cart</h1>
+            {/* {
+              selectCart==="cart"?
+              selectedId(null)
+              :
+              ""
+            } */}
             {
                 cartArray.length === 0 ?
                     <div className='flex justify-center'>
                         <div className="card card-border bg-[#E1E7FF] w-1/2">
                             <div className="card-body">
                                 <h2 className="text-center text-2xl font-bold">Your Cart is Empty !!</h2>
-                                <p className='text-xl text-center'>Looks like you haven’t added anything yet.  
-                Add products to your cart or explore our digital tools.</p>
+                                <p className='text-xl text-center'>Looks like you haven’t added anything yet.
+                                    Add products to your cart or explore our digital tools.</p>
                             </div>
                         </div>
                     </div>
@@ -43,7 +50,9 @@ const DigitalCart = ({ cartArray, setCartArray, deleteCart }) => {
                                                 </div>
                                             </div>
                                             <div>
-                                                <button onClick={() => deleteCart(cart)} className=' btn text-red-500 font-bold'>Remove</button>
+                                                <button onClick={() => {deleteCart(cart);
+                                                    toast("Item removed from cart");
+                                                }} className=' btn text-red-500 font-bold'>Remove</button>
                                             </div>
                                         </div>
                                     </div>
@@ -56,7 +65,7 @@ const DigitalCart = ({ cartArray, setCartArray, deleteCart }) => {
                 <p className='text-xl font-semibold'>Total</p>
                 <p className='text-xl font-semibold'>${count}</p>
             </div>
-            <div onClick={() => emptyCart()} className='mx-auto  flex justify-center mt-12'>
+            <div onClick={() => {emptyCart();toast.success("Order placed successfully!");}} className='mx-auto  flex justify-center mt-12'>
                 <button className="btn bg-linear-to-l from-[#4F39F6] to-[#9514FA] text-white rounded-full p-5 w-[95%]  ">Proceed to Checkout</button>
             </div>
         </div>

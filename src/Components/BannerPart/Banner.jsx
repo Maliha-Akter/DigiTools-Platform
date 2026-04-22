@@ -13,7 +13,7 @@ const Banner = () => {
                         />
                     </div>
                     <div className='space-y-2 flex-1 lg:w-100 '>
-                        <div className='flex gap-2 items-center bg-[#e4e2ff] lg:w-[60%] pl-6 py-2  rounded-full'>
+                        <div className='flex gap-2 items-center bg-[#e4e2ff] lg:w-[75%] pl-6 py-2  rounded-full'>
                             <img className='border border-[#E1E7FF] p-1.5 w-6 rounded-full bg-linear-to-l from-[#b0aadc] to-[#bc96d9]' src={"https://i.ibb.co.com/ynmDKPqT/Rectangle-4.png"} alt="" />
                             <h1 className='text-xl  bg-linear-to-l from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>New: AI-Powered Tools Available</h1>
                         </div>

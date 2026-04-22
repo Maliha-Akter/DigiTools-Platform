@@ -2,36 +2,38 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
-            <footer className="footer sm:footer-horizontal grid grid-cols-5 bg-[#101727] text-white px-40 py-20 gap-8 ">
-                <div className='w-full '>
-                    <nav className='p-5'>
-                        <img src={"https://i.ibb.co.com/MFkx2k9/Digi-Tools.png"} alt="" />
-                        <p className='mt-4'>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
-                    </nav>
-                </div>
-                <nav className='lg:ml-30'>
+        <div className='bg-[#101727] text-white'>
+            <footer className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 px-6 sm:px-10 md:px-16 lg:px-20 xl:px-32 pt-20 gap-8 justify-items-center md:justify-items-start">
+                <nav>
+                    <div className='w-full text-center md:text-left'>
+                        <nav className='px-5 flex flex-col justify-center items-center'>
+                            <img className='w-[180px]' src={"https://i.ibb.co.com/MFkx2k9/Digi-Tools.png"} alt="" />
+                            <p className='mt-4'>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
+                        </nav>
+                    </div>
+                </nav>
+                <nav className='md:ml-30  md:text-left flex flex-col'>
                     <h6 className="footer-title">Product</h6>
                     <a className="link link-hover">Features</a>
                     <a className="link link-hover">Pricing</a>
                     <a className="link link-hover">Templates</a>
                     <a className="link link-hover">Integrations</a>
                 </nav>
-                <nav className='lg:ml-30'>
+                <nav className='md:ml-30  md:text-left flex flex-col'>
                     <h6 className="footer-title">Company</h6>
                     <a className="link link-hover">About</a>
                     <a className="link link-hover">Blog</a>
                     <a className="link link-hover">Careers</a>
                     <a className="link link-hover">Press</a>
                 </nav>
-                <nav className='lg:ml-30'>
+                <nav className='md:ml-30 flex flex-col'>
                     <h6 className="footer-title">Resources</h6>
                     <a className="link link-hover">Documentation</a>
                     <a className="link link-hover">Help Center</a>
                     <a className="link link-hover">Community</a>
                     <a className="link link-hover">Contact</a>
                 </nav>
-                <nav className='lg:ml-30'>
+                <nav className='md:ml-30 flex flex-col'>
                     <h6 className="footer-title">Social</h6>
                     <div className="grid grid-flow-col gap-4">
                         <a>
@@ -69,7 +71,19 @@ const Footer = () => {
                         </a>
                     </div>
                 </nav>
+
             </footer>
+            <div className="divider before:bg-gray-700 after:bg-gray-700 container mx-auto pt-10 pb-5"></div>
+            <div className='flex justify-between px-40 pb-10'>
+                <div>
+                    @ 2026 Digitools. All rights reserved.
+                </div>
+                <div className='flex flex-wrap justify-between gap-4'>
+                    <p>Privacy Policy </p>
+                    <p>Terms of Service</p>
+                    <p>Cookies</p>
+                </div>
+            </div>
         </div>
     );
 };

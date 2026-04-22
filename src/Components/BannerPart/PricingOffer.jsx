@@ -7,8 +7,8 @@ const PricingOffer = () => {
                 <h1 className='text-6xl font-bold'>Simple, Transparent Pricing</h1>
                 <p className='text-xl'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
-            <div className='container mx-auto mt-18 flex justify-between'>
-                <div className="card w-[29%] bg-base-100 shadow-xl py-4">
+            <div className='container mx-auto mt-18 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 md:gap-20 '>
+                <div className="card  bg-base-100 shadow-xl py-4 w-full max-w-sm mx-auto">
                     <div className="card-body">
                         {/* <span className="badge badge-xs badge-warning">Most Popular</span> */}
                         <div className="flex flex-col justify-between space-y-2">
@@ -40,9 +40,9 @@ const PricingOffer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-[29%] bg-linear-to-l from-[#4F39F6] to-[#9514FA] text-white shadow-xl py-4">
+                <div className="card bg-linear-to-l from-[#4F39F6] to-[#9514FA] text-white shadow-xl py-4 w-full max-w-sm mx-auto">
                     <div className="card-body">
-                        <span className="bg-[#FEF3C6] text-[#BB4D00] inline-block w-fit p-2 rounded-full text-xl absolute -top-5 left-1/3">Most Popular</span>
+                        <span className="bg-[#FEF3C6] text-[#BB4D00] inline-block w-fit p-2 rounded-full text-xl absolute -top-5 md:left-1/3 right-2">Most Popular</span>
                         <div className="flex flex-col justify-between space-y-2">
                             <h2 className="text-3xl font-bold">Pro</h2>
                             <p className='mb-6'>Best for professionals</p>
@@ -83,7 +83,7 @@ const PricingOffer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-[29%] bg-base-100 shadow-xl py-4">
+                <div className="card  bg-base-100 shadow-xl py-4 w-full max-w-sm mx-auto">
                     <div className="card-body">
                         {/* <span className="badge badge-xs badge-warning">Most Popular</span> */}
                         <div className="flex flex-col justify-between space-y-2">

@@ -2,7 +2,7 @@ import React from 'react';
 import DigitalCard from './DigitalCard';
 import DigitalCart from './DigitalCart';
 
-const DigitalHeader = ({ digitalData, selectCart, setSelectCart, handleSelectCart,cartArray ,setCartArray,handleCartArray,deleteCart}) => {
+const DigitalHeader = ({ digitalData, selectCart, setSelectCart, selectedId, setSelectedId, handleSelectCart, cartArray, setCartArray, handleCartArray, deleteCart }) => {
     return (
         <div>
             <div className='mt-30'>
@@ -22,7 +22,8 @@ const DigitalHeader = ({ digitalData, selectCart, setSelectCart, handleSelectCar
                             'bg-linear-to-l from-[#4F39F6] to-[#9514FA] text-white'
                             }`} onClick={() => {
                                 setSelectCart("cart");
-                                handleSelectCart("cart")
+                                handleSelectCart("cart");
+                                setSelectedId(null);
                             }}>Cart ({cartArray.length})</button>
 
                     </div>
@@ -31,15 +32,15 @@ const DigitalHeader = ({ digitalData, selectCart, setSelectCart, handleSelectCar
             <div>
                 {
                     selectCart === "product" ?
-                        <div className='grid lg:grid-cols-3 container mx-auto space-y-8 mt-10'>
+                        <div className='grid lg:grid-cols-3 md:grid-cols-2  container mx-auto space-y-8 mt-10'>
                             {
                                 digitalData.map(data => {
-                                    return <DigitalCard data={data} selectCart={selectCart} setSelectCart={setSelectCart} cartArray={cartArray} setCartArray={setCartArray} handleCartArray={handleCartArray}></DigitalCard>
+                                    return <DigitalCard data={data} selectCart={selectCart} setSelectCart={setSelectCart} cartArray={cartArray} setCartArray={setCartArray} handleCartArray={handleCartArray} selectedId={selectedId} setSelectedId={setSelectedId}></DigitalCard>
                                 })
                             }
                         </div>
                         :
-                        <DigitalCart cartArray={cartArray} setCartArray={setCartArray} handleCartArray={handleCartArray} deleteCart={deleteCart}></DigitalCart>
+                        <DigitalCart selectCart={selectCart} selectedId={selectedId} setSelectedId={setSelectedId} cartArray={cartArray} setCartArray={setCartArray} handleCartArray={handleCartArray} deleteCart={deleteCart}></DigitalCart>
                 }
             </div>
         </div>

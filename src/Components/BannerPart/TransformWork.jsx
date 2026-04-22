@@ -2,13 +2,13 @@ import React from 'react';
 
 const TransformWork = () => {
     return (
-        <div className='mt-24 mb-20  w-full  min-h-[50vh] bg-linear-to-l from-[#4F39F6] to-[#9514FA] text-white flex flex-col justify-evenly items-center px-[15%] py-4'>
-            <div className='text-center space-y-4'>
+        <div className='mt-24 w-full min-h-[50vh] bg-linear-to-l from-[#4F39F6] to-[#9514FA] text-white flex flex-col justify-evenly items-center px-[15%] py-4'>
+            <div className='text-center md:space-y-4 space-y-10'>
                 <h1 className='text-5xl font-bold'>Ready to Transform Your Workflow?</h1>
                 <p className=''>Join thousands of professionals who are already using Digitools to work smarter. <br />Start your free trial today.</p>
             </div>
-            <div>
-                <div className='flex gap-4'>
+            <div className='mt-10 md:mt-2'>
+                <div className='flex gap-6 md:flex-row flex-col md:gap-4 '>
                     <button className="btn bg-base-100 rounded-full p-7">
                         <span className="bg-linear-to-l from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent font-bold text-xl">
                             Explore Products
